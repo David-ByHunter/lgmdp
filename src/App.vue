@@ -22,7 +22,18 @@ body {
 #app {
   height: inherit;
   width: inherit;
-  background-color: var(--color-primary);
   color: var(--color-accent);
+  background-color: rgba(61,0,0,0.9);
+}
+#app::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/BgImageKegs.webp');
+  background-size: cover;
+  z-index: -1;
 }
 </style>
