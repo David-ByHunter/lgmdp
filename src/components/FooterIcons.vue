@@ -7,6 +7,7 @@ import { socialMedia } from '@/components/data/links.ts'
 
 <template>
   <div class="flex justify-center gap-x-8 text-accent *:size-8">
+    <!--
     <a
       class="hover:scale-110"
       :href="socialMedia[0].link"
@@ -15,6 +16,7 @@ import { socialMedia } from '@/components/data/links.ts'
     >
       <linkedinIcon />
     </a>
+    -->
     <a
       class="hover:scale-110"
       :href="socialMedia[1].link"
