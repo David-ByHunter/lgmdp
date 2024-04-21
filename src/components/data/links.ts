@@ -5,6 +5,11 @@ interface link {
 }
 export const socialMedia: link[] = [
   {
+    title: 'linkedin',
+    link: 'https://www.linkedin.com/in/davidbarfer/',
+    alt: 'LinkedIn Profile'
+  },
+  {
     title: 'github',
     link: 'https://github.com/David-ByHunter/lgmdp',
     alt: 'GitHub Profile'
