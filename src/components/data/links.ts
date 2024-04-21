@@ -5,11 +5,6 @@ interface link {
 }
 export const socialMedia: link[] = [
   {
-    title: 'linkedin',
-    link: 'https://www.linkedin.com/in/davidbarfer/',
-    alt: 'LinkedIn Profile'
-  },
-  {
     title: 'github',
     link: 'https://github.com/David-ByHunter/lgmdp',
     alt: 'GitHub Profile'
@@ -19,13 +14,6 @@ export const socialMedia: link[] = [
     link: 'https://www.instagram.com/mostdrunkpeople/',
     alt: 'Instagram Profile'
   }
-]
-export const links: link[] = [
-  {
-    title: 'Instagram',
-    link: 'https://www.instagram.com/mostdrunkpeople/',
-    alt: 'LG MDP Website'
-  },
 ]
 export const donate: link = {
   title: 'Donate',
