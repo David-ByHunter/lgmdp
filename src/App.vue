@@ -10,9 +10,9 @@ import { RouterView } from 'vue-router'
 
 <style>
 :root {
-  --color-primary: #671f00;
-  --color-secondary: #be4229;
-  --color-accent: #fffb00;
+  --color-primary: #3D0000;
+  --color-secondary: #954200;
+  --color-accent: #F28E1C;
 }
 body {
   display: flex;
