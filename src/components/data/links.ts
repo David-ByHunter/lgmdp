@@ -22,9 +22,9 @@ export const socialMedia: link[] = [
 ]
 export const links: link[] = [
   {
-    title: 'ESTIEM',
-    link: 'http://estiem.org/',
-    alt: 'ESTIEM Website'
+    title: 'Instagram',
+    link: 'https://www.instagram.com/mostdrunkpeople/',
+    alt: 'LG MDP Website'
   },
 ]
 export const donate: link = {
