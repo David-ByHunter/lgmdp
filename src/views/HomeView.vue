@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { links, donate } from '@/components/data/links'
+import { description } from '@/components/data/info'
+import { donate } from '@/components/data/links'
 import ProfilePicture from '@/components/ProfilePicture.vue'
 import LinkBtn from '@/components/LinkBtn.vue'
 import Separator from '@/components/SeparatorLine.vue'
@@ -12,13 +13,7 @@ import FooterIcons from '@/components/FooterIcons.vue'
     <h1 class="font-bold text-xl text-center uppercase">LG MDP (Most Drunk People)</h1>
     <FooterIcons />
     <Separator />
-    <LinkBtn
-      v-for="item in links"
-      :key="item.title"
-      :title="item.title"
-      :link="item.link"
-      :alt="item.alt"
-    ></LinkBtn>
+    <p>{{ description }}</p>
     <Separator />
     <LinkBtn
       :title="donate.title"
