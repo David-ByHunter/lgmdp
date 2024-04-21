@@ -1,0 +1,13 @@
+<script setup lang="ts">
+const props = defineProps<{
+  text: string
+}>()
+</script>
+
+<template>
+  <div
+    class="flex justify-center rounded-full border-2 border-accent min-w-8 w-64 p-2 transition hover:bg-accent hover:text-primary hover:scale-105"
+  >
+    <p class="uppercase">{{ props.text }}</p>
+</div>
+</template>
