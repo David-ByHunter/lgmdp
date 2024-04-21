@@ -1,1 +1,2 @@
-export const description: string = 'Hello world'
+export const name:string = 'LG MDP ( Most Drunk People )'
+export const description: string = 'A group of friends who love beer and every alcoholic beverage and want to support non-profit organisations'
